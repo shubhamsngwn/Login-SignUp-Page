@@ -1,0 +1,57 @@
+.recover-acc-parent {
+  height: 270px;
+  width: 425px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  margin-left: 500px;
+  margin-top: 200px;
+  flex-direction: column;
+  border-radius: 20px;
+}
+.recover-acc-heading {
+  background: linear-gradient(90deg, rgb(51, 51, 224), blueviolet);
+  height: 60px;
+  text-align: center;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  width: 425px;
+  margin-top: -18px;
+  color: white;
+  margin-bottom: 30px;
+}
+.recover-acc-heading h2 {
+  margin-top: 15px;
+}
+#fullWidth {
+  width: 300px;
+  border-radius: 20px;
+}
+.submit-btn input {
+  background: linear-gradient(90deg, rgb(51, 51, 224), blueviolet);
+  color: white;
+  padding: 10px 75px 10px 75px;
+  border-radius: 20px;
+  border: none;
+}
+.submit-btn input:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .recover-acc-parent {
+    margin-top: 225px;
+    width: 380px;
+    margin-left: 5px;
+  }
+  .recover-acc-heading {
+    width: 380px;
+  }
+}
+.form-em-name input{
+  border-radius: 15px;
+  padding: 13px;
+  margin: 5px;
+  width: 250px;
+}

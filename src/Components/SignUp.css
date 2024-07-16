@@ -1,0 +1,83 @@
+.navbar-head {
+  margin-bottom: 20px;
+  background: linear-gradient(90deg, rgb(51, 51, 224), blueviolet);
+  width: 375px;
+  height: 70px;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  display: flex;
+  text-align: center;
+  margin-top: -10px;
+  justify-content: center;
+}
+.navbar-head h2 {
+  margin-top: 20px;
+  color: white;
+}
+.navbar-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 530px;
+  width: 375px;
+  border: 2px solid black;
+  margin-left: 525px;
+  margin-top: 125px;
+  border-radius: 20px;
+}
+.inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.inputs input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  width: 300px;
+}
+.terms-conditions {
+    display: flex;
+}
+.signup-btn button {
+    background: linear-gradient(90deg, rgb(51, 51, 224), blueviolet);
+    color: white;
+    padding: 10px 75px 10px 75px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 10px;
+}
+.signup-btn button:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+.terms-conditions {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.terms-conditions input {
+    margin-right: 7px;
+}
+.terms-conditions input:hover {
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+  .navbar-parent {
+    margin-top: 100px;
+    margin-left: 10px;
+  }
+}
+.pass-show button {
+  background: linear-gradient(90deg, rgb(51, 51, 224), blueviolet);
+  color: white;
+  padding: 5px 20px 5px 20px;
+  border-radius: 20px;
+  margin-left: -160px;
+  margin-top: 5px;
+}
+.pass-show button:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,102 @@
+.navbar-prnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 400px;
+  width: 350px;
+  border: 1px solid black;
+  margin-left: 550px;
+  margin-top: 175px;
+  border-radius: 20px;
+}
+.navbar-hd {
+  background: linear-gradient(90deg, rgb(51, 51, 224), blueviolet);
+  color: white;
+  height: 70px;
+  width: 350px;
+  text-align: center;
+  margin-top: -23px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: 20px;
+}
+.navbar-hd h2 {
+  margin-top: 21px;
+}
+.email-pass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.email-pass input {
+  border-radius: 25px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  width: 250px;
+  padding: 10px;
+}
+.remember-me {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.remember-me label {
+  margin-right: 10px;
+}
+.remember-me p {
+  color: blue;
+}
+.remember-me p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.remember-me input:hover {
+  cursor: pointer;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn button {
+  background: linear-gradient(90deg, rgb(51, 51, 224), blueviolet);
+  color: white;
+  padding: 10px 40px 10px 40px;
+  border-radius: 20px;
+  border: none;
+  margin: 0 3px 0 3px;
+}
+.btn button:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+.msg span {
+  color: blue;
+}
+.msg span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.remember-me input {
+  margin-right: 5px;
+}
+@media (max-width: 768px) {
+  .navbar-prnt {
+    margin-left: 20px;
+  }
+}
+.show-pass button {
+  background: linear-gradient(90deg, rgb(51, 51, 224), blueviolet);
+  color: white;
+  padding: 5px 20px 5px 20px;
+  border-radius: 20px;
+  margin-left: -130px;
+  margin-top: 5px;
+}
+.show-pass button:hover {
+  cursor: pointer;
+  font-weight: normal;
+}

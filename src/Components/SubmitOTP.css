@@ -1,0 +1,53 @@
+.verification-parent {
+  height: 270px;
+  width: 425px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  margin-left: 500px;
+  margin-top: 230px;
+  flex-direction: column;
+  border-radius: 20px;
+}
+.verification-heading {
+  background: linear-gradient(90deg, rgb(51, 51, 224), blueviolet);
+  height: 60px;
+  text-align: center;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  width: 425px;
+  margin-top: -20px;
+  color: white;
+  margin-bottom: 40px;
+}
+.verification-heading h2 {
+  margin-top: 15px;
+}
+#otp-input {
+  width: 300px;
+  border-radius: 20px;
+}
+.submit-otp-btn button {
+  background: linear-gradient(90deg, rgb(51, 51, 224), blueviolet);
+  color: white;
+  padding: 10px 75px 10px 75px;
+  border-radius: 20px;
+  border: none;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.submit-otp-btn button:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .verification-parent {
+    margin-left: 5px;
+    margin-top: 220px;
+    width: 380px;
+  }
+  .verification-heading {
+    width: 380px;
+  }
+}
